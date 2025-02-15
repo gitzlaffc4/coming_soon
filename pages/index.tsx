@@ -2,10 +2,10 @@ import Link from "next/link";
 import Layout from "../components/Layout";
 
 const IndexPage = () => (
-  <Layout title="Coming Soon - Clean Coming Soon Page (Tailwind CSS, NextJs & HTML5) created by themeptation.net">
+  <Layout title="KC Tech Partners - Coming Soon">
     <img
       src="/images/xera.svg"
-      alt="Themeptation "
+      alt="KCTP"
       className="absolute h-96 -top-20 -right-16 lg:right-5 lg:top-10 animate-blob"
     />
     <img
@@ -18,7 +18,7 @@ const IndexPage = () => (
         <h3 className="font-light text-xl uppercase tracking-wider">
           Coming soon
         </h3>
-        <h1 className="text-7xl lg:text-9xl font-extrabold">We’r blowing up</h1>
+        <h1 className="text-7xl lg:text-9xl font-extrabold">Coming Soon!</h1>
         <p className="text-xl lg:text-2xl tracking-wide mx-10 lg:max-w-xl lg:mx-auto">
           We`re under construction. Check back for an update soon. Stay in
           touch!
