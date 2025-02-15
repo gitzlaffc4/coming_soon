@@ -1,5 +1,8 @@
 import React, { ReactNode } from "react";
+import { GoogleAnalytics } from '@next/third-parties/google';
 import Head from "next/head";
+
+import { siteDetails } from 'siteDetails';
 
 type Props = {
   children?: ReactNode;
@@ -23,6 +26,7 @@ const Layout = ({ children, title = "This is the default title" }: Props) => (
       />
       <meta property="og:url" content="https://slioth.themepttation.net/" />
       <meta property="og:type" content="website" />
+      {siteDetails.googleAnalyticsId && <GoogleAnalytics gaId={siteDetails.googleAnalyticsId} />}
     </Head>
     {children}
   </div>
