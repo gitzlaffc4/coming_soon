@@ -2,7 +2,7 @@ import React, { ReactNode } from "react";
 import { GoogleAnalytics } from '@next/third-parties/google';
 import Head from "next/head";
 
-import { siteDetails } from '@/data/siteDetails';
+import { siteDetails } from 'siteDetails';
 
 type Props = {
   children?: ReactNode;
